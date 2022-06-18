@@ -22,6 +22,7 @@ const App = () => {
         <Drawer.Navigator
           initialRouteName="Home"
           defaultStatus="open"
+          screenOptions={{headerShown: false}}
           drawerContent={props => {
             return (
               <DrawerContentScrollView {...props}>
